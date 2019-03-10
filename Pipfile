@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygame = "*"
+matplotlib = "*"
+pygal = "*"
+pygal-maps-world = "*"
+requests = "*"
+notebook = {path = "./notebook-5.7.5-py2.py3-none-any.whl"}
+pandas = "*"
+ipython = {path = "./ipython-7.3.0-py3-none-any.whl"}
+jupyterlab = {path = "./jupyterlab-0.35.4-py3-none-any.whl"}
+selenium = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
